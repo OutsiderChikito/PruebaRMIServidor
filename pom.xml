@@ -11,4 +11,14 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.mycompany.pruebarmiservidor.PruebaRMIServidor</exec.mainClass>
     </properties>
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>com.google.cloud.tools</groupId>
+            <artifactId>appengine-maven-plugin</artifactId>
+            <version>2.4.0</version> <!-- Puedes usar la última versión disponible -->
+        </plugin>
+    </plugins>
+</build>
+
 </project>
